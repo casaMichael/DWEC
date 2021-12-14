@@ -1,0 +1,26 @@
+body{
+    background-color: burlywood;
+}
+
+h2{
+    color: royalblue;
+    text-align: center;
+    font-style: italic;
+}
+
+.deporte,.datos,.orientacion{
+    background-color: rosybrown;
+}
+#field{
+    color:royalblue;
+    padding-bottom: 19px;
+}
+
+.mostrarDatos{
+    background-color: cornflowerblue;
+    height: 155px;
+    width: 355px;
+    border-style: dotted;
+    margin-left: 15px;
+    margin-top: 15px;
+}

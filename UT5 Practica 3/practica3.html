@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="practica3.js"></script>
+    <link rel="stylesheet" href="practica3.css" />
+  </head>
+  <body>
+    <h2>FORMULARIO</h2>
+    <form id="formulario">
+      <input type="reset" name="Reiniciar" value="Reiniciar" /><br /><br />
+
+      <fieldset class="deporte">
+        <legend id="field">Deporte favorito</legend>
+
+        Futbol
+        <input type="checkbox" name="deporte" id="futbol" value="futbol" />
+        Voley
+        <input type="checkbox" name="deporte" id="voley" value="voley" />
+        Baloncesto<input
+          type="checkbox"
+          name="deporte"
+          id="baloncesto"
+          value="baloncesto"
+        /><br /><br />
+      </fieldset>
+
+      <fieldset class="datos">
+        <legend id="field">Datos personales</legend>
+
+        Introduce tu nombre: <input type="text" id="nombre" /><br /><br />
+        Introduce tu télefono: <input type="tel" id="telefono" /><br /><br />
+
+        Introduce tu correo electronico:
+        <input type="email" id="correo" /><br /><br />
+        Cuantos años tienes: <input type="number" id="edad" /><br /><br />
+        Contraseña favorita: <input type="password" id="pass" /><br /><br />
+      </fieldset>
+
+      <fieldset class="orientacion">
+        <legend id="field">Sexo</legend>
+
+        Hombre<input
+          type="radio"
+          name="sexo"
+          id="hombre"
+          value="hombre"
+          checked
+        />
+        Mujer<input
+          type="radio"
+          name="sexo"
+          id="mujer"
+          value="mujer"
+        /><br /><br />
+      </fieldset>
+      <br /><br />
+
+      <button type="button" onclick="recogerDatos()">Enviar</button>
+    </form>
+
+    <div id="zonadatos" class="mostrarDatos">
+      <p id="parrafo">Mostrar datos del formulario</p>
+    </div>
+  </body>
+</html>
